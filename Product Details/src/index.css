@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/images/Background.jpg');
+  background-size: cover;        /* zoom adjust */
+  background-repeat: no-repeat;  /* no repeat */
+  background-attachment: fixed;  /* scroll fix */
+  background-position: center;   /* center image */
+  font-family: sans-serif;
+}
+
