@@ -32,211 +32,211 @@ import p30 from "../assets/images/product-30.jpg";
 const products = [
   {
     id: 1,
-    name: "Product 1",
-    price: 999,
+    name: "White Gown",
+    price: 1150,
     description: "This is product 1",
     image: p1
   },
   {
     id: 2,
-    name: "Product 2",
-    price: 899,
+    name: "Chudidar",
+    price: 1799,
     description: "This is product 2",
     image: p2
   },
   {
     id: 3,
-    name: "Product 3",
-    price: 1199,
+    name: "Anarkali Gown",
+    price: 560,
     description: "This is product 3",
     image: p3
   },
   {
     id: 4,
-    name: "Product 4",
-    price: 999,
+    name: "Midi Womens",
+    price: 5899,
     description: "This is product 4",
     image: p4
   },
   {
     id: 5,
-    name: "Product 5",
-    price: 799,
+    name: "PKorean Top",
+    price: 699,
     description: "This is product 5",
     image: p5
   },
   {
     id: 6,
-    name: "Product 6",
-    price: 1399,
+    name: "Black Kurti",
+    price: 2599,
     description: "This is product 6",
     image: p6
   },
   {
     id: 7,
-    name: "Product 7",
-    price: 2999,
+    name: "Red Kurti",
+    price: 899,
     description: "This is product 7",
     image: p7
   },
   {
     id: 8,
-    name: "Product 8",
-    price: 2999,
+    name: "Half Hand Shirt",
+    price: 499,
     description: "This is product 8",
     image: p8
   },
   {
     id: 9,
-    name: "Product 9",
-    price: 2999,
+    name: "Oversized Shirt",
+    price: 899,
     description: "This is product 7",
     image: p9
   },
   {
     id: 10,
-    name: "Product 10",
-    price: 2999,
+    name: "Linen Shirt Men",
+    price: 999,
     description: "This is product 7",
     image: p10
   },
   {
     id: 11,
-    name: "Product 11",
-    price: 2999,
+    name: "Male Kurta",
+    price: 1199,
     description: "This is product 7",
     image: p11
   },
   {
     id: 12,
-    name: "Product 12",
-    price: 2999,
+    name: "Half Hand Shirt",
+    price: 699,
     description: "This is product 7",
     image: p12
   },
   {
     id: 13,
-    name: "Product 13",
-    price: 2999,
+    name: "Shorts for Men",
+    price: 399,
     description: "This is product 7",
     image: p13
   },
   {
     id: 14,
-    name: "Product 14",
-    price: 2999,
+    name: "Beage Trouser",
+    price: 599,
     description: "This is product 7",
     image: p14
   },
   {
     id: 15,
-    name: "Product 15",
-    price: 2999,
+    name: "White Trouser",
+    price: 599,
     description: "This is product 7",
     image: p15
   },
   {
     id: 16,
-    name: "Product 16",
-    price: 2999,
+    name: "Linen Shirt",
+    price: 699,
     description: "This is product 7",
     image: p16
   },
   {
     id: 17,
-    name: "Product 17",
-    price: 2999,
+    name: "Brown Shirt",
+    price: 999,
     description: "This is product 7",
     image: p17
   },
   {
     id: 18,
-    name: "Product 18",
-    price: 2999,
+    name: "Striped Shirt",
+    price: 499,
     description: "This is product 7",
     image: p18
   },
   {
     id: 19,
-    name: "Product 19",
-    price: 2999,
+    name: "Drop Shoulder T-Shirt",
+    price: 399,
     description: "This is product 7",
     image: p19
   },
   {
     id: 20,
-    name: "Product 20",
+    name: "Saree",
     price: 2999,
     description: "This is product 7",
     image: p20
   },
   {
     id: 21,
-    name: "Product 21",
-    price: 2999,
+    name: "Hoodie",
+    price: 599,
     description: "This is product 7",
     image: p21
   },
   {
     id: 22,
-    name: "Product 22",
-    price: 2999,
+    name: "Track Pant for Men",
+    price: 299,
     description: "This is product 7",
     image: p22
   },
   {
     id: 23,
-    name: "Product 23",
-    price: 2999,
+    name: "Wollen Female-Shirt",
+    price: 499,
     description: "This is product 7",
     image: p23
   },
   {
     id: 24,
-    name: "Product 24",
-    price: 2999,
+    name: "Female Top",
+    price: 599,
     description: "This is product 7",
     image: p24
   },
   {
     id: 25,
-    name: "Product 25",
-    price: 2999,
+    name: "Full Top for Women",
+    price: 899,
     description: "This is product 7",
     image: p25
   },
   {
     id: 26,
-    name: "Product 26",
-    price: 2999,
+    name: "Black Burka",
+    price: 1199,
     description: "This is product 7",
     image: p26
   },
   {
     id: 27,
-    name: "Product 27",
-    price: 2999,
+    name: "Veshti",
+    price: 399,
     description: "This is product 7",
     image: p27
   },
   {
     id: 28,
-    name: "Product 28",
-    price: 2999,
+    name: "Black-Hoodie",
+    price: 299,
     description: "This is product 7",
     image: p28
   },
   {
     id: 29,
-    name: "Product 29",
-    price: 2999,
+    name: "Full Frock",
+    price: 799,
     description: "This is product 7",
     image: p29
   },
   {
     id: 30,
-    name: "Product 30",
-    price: 2999,
+    name: "Lowyer for Mens",
+    price: 349,
     description: "This is product 7",
     image: p30
   }
