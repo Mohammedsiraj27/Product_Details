@@ -34,7 +34,7 @@ const products = [
     id: 1,
     name: "White Gown",
     price: 1150,
-    description: "This is product 1",
+    description: "A stunning white gown that blends elegance with simplicity. Perfect for making a graceful, timeless statement.",
     image: p1
   },
   {
