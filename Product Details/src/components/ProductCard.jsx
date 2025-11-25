@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
       <h3>{product.name}</h3>
       <p>₹{product.price}</p>
       <button onClick={() => addToCart(product)}>Add to Cart</button>
-      <Link to={`/product/${product.id}`} style={{marginLeft:"10px"}}>View Product</Link>
+      <Link to={`/product/${product.id}`} style={{marginLeft:"10px" , textDecoration: "none",}}>View Product</Link>
     </div>
   );
 };

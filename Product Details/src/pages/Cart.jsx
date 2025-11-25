@@ -10,7 +10,7 @@ const Cart = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Cart</h1>
+      <h1 style={{ background: "linear-gradient(90deg, #557d87ff, #401881ff)",WebkitBackgroundClip: "text",WebkitTextFillColor: "transparent",fontSize: "32px",fontWeight: "bold",marginBottom: "20px"}}>Cart</h1>
 
       {cartItems.map((item) => (
         <div
