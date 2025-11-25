@@ -41,203 +41,203 @@ const products = [
     id: 2,
     name: "Chudidar",
     price: 1799,
-    description: "This is product 2",
+    description: "A beautifully crafted chudidar with a classic fit. Soft, graceful, and effortlessly traditional.",
     image: p2
   },
   {
     id: 3,
     name: "Anarkali Gown",
     price: 560,
-    description: "This is product 3",
+    description: "This Anarkali gown blends tradition with modern style. Flowy, stunning, and made to turn heads",
     image: p3
   },
   {
     id: 4,
     name: "Midi Womens",
     price: 5899,
-    description: "This is product 4",
+    description: "A chic womens midi dress designed for a stylish everyday look. Comfortable, trendy, and effortlessly elegant.",
     image: p4
   },
   {
     id: 5,
     name: "Korean Top",
     price: 699,
-    description: "This is product 5",
+    description: "A trendy Korean top with a soft, minimal aesthetic. Perfect for cute, clean, and stylish everyday looks.",
     image: p5
   },
   {
     id: 6,
     name: "Black Kurti",
     price: 2599,
-    description: "This is product 6",
+    description: "This black kurti blends comfort with timeless charm. Classy, versatile, and effortlessly beautiful",
     image: p6
   },
   {
     id: 7,
     name: "Red Kurti",
     price: 899,
-    description: "This is product 7",
+    description: "A vibrant red kurti that adds bold elegance to your look. Perfect for festive and everyday wear.",
     image: p7
   },
   {
     id: 8,
     name: "Half Hand Shirt",
     price: 499,
-    description: "This is product 8",
+    description: "A classic half-hand shirt designed for everyday comfort. Stylish, breathable, and perfect for casual outings.",
     image: p8
   },
   {
     id: 9,
     name: "Oversized Shirt",
     price: 899,
-    description: "This is product 7",
+    description: "A comfy oversized shirt with a relaxed, trendy fit. Perfect for a cool and effortless everyday style.",
     image: p9
   },
   {
     id: 10,
     name: "Linen Shirt Men",
     price: 999,
-    description: "This is product 7",
+    description: "A premium men’s linen shirt designed for cool comfort. Lightweight, breathable, and perfect for any season.",
     image: p10
   },
   {
     id: 11,
     name: "Male Kurta",
     price: 1199,
-    description: "This is product 7",
+    description: "A classic mens kurta crafted for comfort and elegance. Perfect for festive events, functions, and everyday tradition.",
     image: p11
   },
   {
     id: 12,
     name: "Half Hand Shirt",
     price: 699,
-    description: "This is product 7",
+    description: "A cool half-hand shirt made for everyday comfort. Lightweight, stylish, and perfect for casual wear.",
     image: p12
   },
   {
     id: 13,
     name: "Shorts for Men",
     price: 399,
-    description: "This is product 7",
+    description: "Comfortable mens shorts designed for daily wear. Lightweight, flexible, and perfect for casual outings.",
     image: p13
   },
   {
     id: 14,
     name: "Beage Trouser",
     price: 599,
-    description: "This is product 7",
+    description: "A stylish beige trouser with a clean, modern fit. Soft, comfortable, and perfect for any casual or formal look.",
     image: p14
   },
   {
     id: 15,
     name: "White Trouser",
     price: 599,
-    description: "This is product 7",
+    description: "These white trousers offer comfort with a sharp finish. Easy to pair, timeless, and effortlessly smart.",
     image: p15
   },
   {
     id: 16,
     name: "Linen Shirt",
     price: 699,
-    description: "This is product 7",
+    description: "A soft and breathable linen shirt designed for cool comfort. Perfect for casual days and summer outings.",
     image: p16
   },
   {
     id: 17,
     name: "Brown Shirt",
     price: 999,
-    description: "This is product 7",
+    description: "A stylish brown shirt with a warm, classy tone. Perfect for both casual outings and smart looks.",
     image: p17
   },
   {
     id: 18,
     name: "Striped Shirt",
     price: 499,
-    description: "This is product 7",
+    description: "A classic striped shirt that brings a clean, stylish look. Perfect for casual days and smart outings.",
     image: p18
   },
   {
     id: 19,
     name: "Drop Shoulder T-Shirt",
     price: 399,
-    description: "This is product 7",
+    description: "A trendy drop-shoulder T-shirt with a relaxed, oversized vibe. Perfect for a cool and effortless street style look.",
     image: p19
   },
   {
     id: 20,
     name: "Saree",
     price: 2999,
-    description: "This is product 7",
+    description: "A beautifully crafted saree that blends elegance with tradition. Perfect for weddings, functions, and festive moments.",
     image: p20
   },
   {
     id: 21,
     name: "Hoodie",
     price: 599,
-    description: "This is product 7",
+    description: "A cozy and stylish hoodie designed for everyday comfort. Soft, warm, and perfect for any casual look.7",
     image: p21
   },
   {
     id: 22,
     name: "Track Pant for Men",
     price: 299,
-    description: "This is product 7",
+    description: "A comfortable mens track pant built for daily wear. Stretchy, lightweight, and perfect for workouts or casual days.",
     image: p22
   },
   {
     id: 23,
     name: "Wollen Female-Shirt",
     price: 499,
-    description: "This is product 7",
+    description: "This womens woollen shirt blends warmth with elegance. Comfortable, trendy, and effortlessly winter-ready",
     image: p23
   },
   {
     id: 24,
     name: "Female Top",
     price: 599,
-    description: "This is product 7",
+    description: "A stylish womens top designed for everyday elegance. Soft, comfortable, and perfect for any casual outing.",
     image: p24
   },
   {
     id: 25,
     name: "Full Top for Women",
     price: 899,
-    description: "This is product 7",
+    description: "A stylish full-length women’s top that offers complete comfort and coverage. Perfect for casual, office, and everyday wear.",
     image: p25
   },
   {
     id: 26,
     name: "Black Burka",
     price: 1199,
-    description: "This is product 7",
+    description: "A classic black burka designed with elegant simplicity. Comfortable, modest, and perfect for everyday wear.",
     image: p26
   },
   {
     id: 27,
     name: "Veshti",
     price: 399,
-    description: "This is product 7",
+    description: "A traditional veshti crafted for pure comfort and elegance. Perfect for weddings, festivals, and cultural occasions.",
     image: p27
   },
   {
     id: 28,
     name: "Black-Hoodie",
     price: 299,
-    description: "This is product 7",
+    description: "A sleek black hoodie designed for cozy comfort. Warm, soft, and perfect for everyday casual style.",
     image: p28
   },
   {
     id: 29,
     name: "Full Frock",
     price: 799,
-    description: "This is product 7",
+    description: "A beautiful full frock with a soft, flowy design. Perfect for parties, outings, and special moments.",
     image: p29
   },
   {
     id: 30,
     name: "Lowyer for Mens",
     price: 349,
-    description: "This is product 7",
+    description: "A comfortable mens lower designed for daily wear. Soft, flexible, and perfect for workouts or casual outings.",
     image: p30
   }
 ];

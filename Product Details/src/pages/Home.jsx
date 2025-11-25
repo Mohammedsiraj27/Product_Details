@@ -1,7 +1,6 @@
 import { useState } from "react";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
-import "./Home.css";   // ✅ Correct import
 
 const Home = ({ searchValue }) => {
   const filteredProducts = products.filter((item) =>
@@ -10,9 +9,14 @@ const Home = ({ searchValue }) => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Home Page</h1>
-
-      <div className="product-grid">
+      <h1 style={{ background: "linear-gradient(90deg, #508a97ff, #401881ff)",WebkitBackgroundClip: "text",WebkitTextFillColor: "transparent",fontSize: "32px",fontWeight: "bold",marginBottom: "20px"}}>Home Page</h1>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "20px",
+        }}
+      >
         {filteredProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
