@@ -2,6 +2,7 @@ import { useState } from "react";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
 
+
 const Home = ({ searchValue }) => {
   const filteredProducts = products.filter((item) =>
     item.name.toLowerCase().includes(searchValue.toLowerCase())
@@ -11,12 +12,12 @@ const Home = ({ searchValue }) => {
     <div style={{ padding: "20px" }}>
       <h1 style={{ background: "linear-gradient(90deg, #508a97ff, #401881ff)",WebkitBackgroundClip: "text",WebkitTextFillColor: "transparent",fontSize: "32px",fontWeight: "bold",marginBottom: "20px"}}>Home Page</h1>
       <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "20px",
-        }}
-      >
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+    gap: "20px",
+    width: "100%"
+  }}>
         {filteredProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

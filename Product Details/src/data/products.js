@@ -60,7 +60,7 @@ const products = [
   },
   {
     id: 5,
-    name: "PKorean Top",
+    name: "Korean Top",
     price: 699,
     description: "This is product 5",
     image: p5

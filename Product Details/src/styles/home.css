@@ -1,0 +1,19 @@
+.product-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); /* MOBILE DEFAULT = 2 */
+}
+
+/* TABLET - 768px and above */
+@media (min-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  }
+}
+
+/* LAPTOP - 1024px and above */
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(5, 1fr); /* 5 per row */
+  }
+}
