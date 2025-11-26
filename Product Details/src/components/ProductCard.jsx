@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import "./ProductCard.css";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useContext(CartContext);
 
   return (
-    <div style={{border:"1px solid #ccc", padding:"10px", margin:"10px"}}>
+    <div className="product-card">
       <img src={product.image} alt={product.name} width="150" />
       <h3>{product.name}</h3>
       <p>₹{product.price}</p>

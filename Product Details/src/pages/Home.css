@@ -1,20 +1,16 @@
 .product-grid {
   display: grid;
   gap: 20px;
-
-  /* Laptop default */
   grid-template-columns: repeat(5, 1fr);
-  padding: 20px;
+  padding: 10px;
 }
 
-/* Tablet (max width 1024px) → 4 per row */
 @media (max-width: 1024px) {
   .product-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Mobile (max width 600px) → 2 per row */
 @media (max-width: 600px) {
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
