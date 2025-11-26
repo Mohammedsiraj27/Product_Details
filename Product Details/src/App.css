@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+/* 📱 MOBILE HEADER FIX */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px !important;
+    text-align: center !important;
+    gap: 8px !important;
+  }
+
+  header img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  header h2 {
+    font-size: 22px !important;
+    margin: 5px 0 !important;
+  }
+
+  header input {
+    width: 90% !important;
+    max-width: 350px !important;
+    margin-top: 8px !important;
+  }
+
+  header > div:last-child { 
+    flex-direction: row !important;
+    gap: 15px !important;
+    padding-bottom: 10px;
+  }
+}
